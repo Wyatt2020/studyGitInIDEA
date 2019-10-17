@@ -1,0 +1,300 @@
+    1  git config --global user.name "Wyatt2020"
+    2  git config --global user.email "hyw2020@foxmail.com"
+    3  git config user.email
+    4  git config --global user.name "huangyunwu_cd"
+    5  git config --global user.email "huangyunwu_cd@keruyun.com"
+    6  git config --list
+    7  git config --global user.name "huangyunwu_cd"
+    8  git config --global user.email "huangyunwu_cd@keruyun.com"
+    9  git config --list
+   10  git config --list
+   11  git config --global user.name "huangyunwu_cd"
+   12  git config --global user.email "huangyunwu_cd@keruyun.com"
+   13  git config --list
+   14  ssh-keygen
+   15  git clone 
+   16  97981@DESKTOP-CVN69J3 MINGW64 /e/project
+   17  $ git clone
+   18  $ git clone ssh://git@gitlab.shishike.com:38401/on-store/store-app-erp.git
+   19  $ git clone ssh://git@gitlab.shishike.com:38401/on-store/store-app-erp.git
+   20  git config --list
+   21  $ git clone git@gitlab.shishike.com:38401/on-store/store-app-erp.git
+   22  $ git clone ssh://git@gitlab.shishike.com:38401/on-store/store-app-erp.git
+   23  git clone http://gitlab.shishike.com/on-store/store-app-erp.git
+   24  git clone http://gitlab.shishike.com/on-store/store-sdk.git
+   25  git clone http://gitlab.shishike.com/on-store/store-app.git
+   26  git config --list
+   27  git config -l
+   28  git config --global user.name "Wyatt2020"
+   29  git config --global user.email "hyw2020@foxmail.com"
+   30  git config -l
+   31  pwd
+   32  pwd
+   33  mkdir learngit
+   34  cd learngit
+   35  pwd
+   36  git config -l
+   37  git init
+   38  ls
+   39  ls -ah
+   40  git add test.txt
+   41  git add test.txt
+   42  git commit -m "wrote a test file"
+   43  git status
+   44  git diff test.txt
+   45  git add test.txt
+   46  git status
+   47  git commit -m "add distirbuted"
+   48  git status
+   49  git status
+   50  git diff
+   51  git add test.txt
+   52  git status
+   53  git commit -m "append GPL"
+   54  git log
+   55  git log --pretty=oneline
+   56  git reset --hard HEAD^
+   57  cat test.txt
+   58  git log --pretty=oneline
+   59  git reflog
+   60  git reset --hard b8ba055
+   61  cat test.txt
+   62  ls -ah
+   63  git status
+   64  git add test.txt
+   65  git add LICENSE.txt
+   66  git status
+   67  git commit -m "understand how stage works"
+   68  git log
+   69  exit
+   70  cd E
+   71  cde:
+   72  cd e:
+   73  cd learngit
+   74  ls
+   75  cat test.txt
+   76  cat test.txt
+   77  git status
+   78  git add test.txt
+   79  git status
+   80  git diff text.txt
+   81  git diff HEAD -- text.txt
+   82  git diff HEAD -- test.txt
+   83  git diff test.txt
+   84  git checkout -- test.txt
+   85  git status
+   86  git reset HEAD test.txt
+   87  git status
+   88  git checkout -- test.txt
+   89  touch test2.txt
+   90  echo Hello Git >> test2.txt
+   91  cat test2.txt
+   92  git status
+   93  ls
+   94  rm test.txt
+   95  ls
+   96  git checkout -- test.txt
+   97  ls
+   98  rm test2.txt
+   99  ls
+  100  cat test.txt
+  101  touch test2.txt
+  102  echo Hello, Git >> test2.txt
+  103  cat test2.txt
+  104  git add test2.txt
+  105  git status
+  106  git commit -m "add test2.txt"
+  107  git status
+  108  rm test2.txt
+  109  git status
+  110  git rm test2.txt
+  111  git commit -m "remove test2.txt"
+  112  git status
+  113  git log
+  114  git log --pretty=oneline
+  115  cat test2.txt
+  116  git checkout -- test2.txt
+  117  git rm LICENSE.txt
+  118  git checkout -- LICENSE.txt
+  119  git reset HEAD LICENSE.txt
+  120  git status
+  121  git checkout -- LICENSE.txt
+  122  git config -l
+  123  ssh-keygen -t rsa -C "
+  124  q
+  125  "
+  126  ssh-keygen -t rsa -C "hyw2020@foxmail.com"
+  127  git remote add origin git@github.com:Wyatt2020/hyw.git
+  128  git push -u origin master
+  129  git branch
+  130  git branch dev
+  131  git branch
+  132  git checkout dev
+  133  git branch
+  134  ls
+  135  git branch
+  136  git switch master
+  137  git branch
+  138  git log
+  139  git log --graph --pretty=oneline --abbrev-commit
+  140  git stash list
+  141  git branch
+  142  git switch dev
+  143  git branch
+  144  git stash
+  145  git stash list
+  146  git stash
+  147  git branch
+  148  git stash
+  149  git stash list
+  150  git stash apply stash@{0}
+  151  git status
+  152  git checkout master
+  153  git status
+  154  git log --graph --pretty=oneline --abbrev-commit
+  155  git checkout LICENSE.txt
+  156  git status
+  157  git stash list
+  158  git stash drop
+  159  git stash list
+  160  git branch
+  161  git switch dev
+  162  git branch
+  163  git stash
+  164  git status
+  165  git stash
+  166  git stash list
+  167  git stash pop
+  168  git checkout -- LICENSE.txt
+  169  cat LICENSE.txt
+  170  git stash list
+  171  git branch
+  172  git remote
+  173  git remote -v
+  174  git config -l
+  175  git config -l
+  176  git branch
+  177  git branch
+  178  git branch
+  179  git clone 
+  180  git clone git@github.com:Wyatt2020/hyw.git
+  181  ls
+  182  git branch
+  183  git status
+  184  cd hyw
+  185  cd ..
+  186  cd hyw
+  187  git branch
+  188  git clone git@github.com:Wyatt2020/hyw.git
+  189  cd hyw
+  190  git branch dve
+  191  git branch
+  192  git checkout dve
+  193  git push origin dve
+  194  git branch dve2
+  195  git push origin dve2
+  196  git branch
+  197  ls
+  198  cls
+  199  clear
+  200  git status
+  201  git add newFile.txt
+  202  git commit -m "add newFile.txt"
+  203  git status
+  204  git checkout dve2
+  205  git status
+  206  git cheackout dve
+  207  git checkout dve
+  208  git push origin dve
+  209  git branch
+  210  git push origin dve
+  211  git checkout dve2
+  212  git merge dve
+  213  git push origin dve2
+  214  git log
+  215  git status
+  216  git branch
+  217  git branch master
+  218  git checkout master
+  219  git branch
+  220  git branch -d dve
+  221  git branch -D dve
+  222  git branch -D dve2
+  223  git branch
+  224  git commit
+  225  git push origin --delete dve
+  226  git push origin --delete dve2
+  227  git status
+  228  ls
+  229  git diff test.txt
+  230  git status
+  231  git diff test.txt
+  232  git add test.txt
+  233  git status
+  234  git commit -m "append hello"
+  235  git status
+  236  git log
+  237  git status
+  238  git diff test.txt
+  239  git add test.txt
+  240  git status
+  241  git diff test.txt
+  242  git commit -m "append hello"
+  243  git status
+  244  git remote
+  245  git remote -v
+  246  git push origin master
+  247  git remote show origin
+  248  git fetch origin
+  249  git status
+  250  git fetch origin
+  251  git fetch origin
+  252  git status
+  253  git log -p FETCH_HEAD
+  254  git fetch origin master
+  255  git log -p FETCH_HEAD
+  256  git checkout master
+  257  git status
+  258  git pull
+  259  git status
+  260  git checkout -- 123.txt
+  261  git rm 123.txt
+  262  git commit -m "remove 123.txt"
+  263  git status
+  264  git push
+  265  git status
+  266  git status
+  267  git checkout master
+  268  git checkout master
+  269  ls
+  270  git status
+  271  git status
+  272  git fetch origin master
+  273  git status
+  274  git checkout master
+  275  git merge FETCH_HEAD
+  276  git rm 321.txt
+  277  git commit -m "remove 321.txt"
+  278  git checkout master
+  279  git push origin master
+  280  git branch -a
+  281  git branch -r
+  282  git version
+  283  echo "hhh" >> hhh.txt
+  284  git status
+  285  rm hhh.txt
+  286  git status
+  287  git status
+  288  git status
+  289  git status
+  290  git status
+  291  git status
+  292  git status
+  293  git status
+  294  git log
+  295  git reset --hard HEAD^^
+  296  git log
+  297  git status
+  298  git status
+  299  git status
+  300  history > mylog.txt
